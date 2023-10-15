@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0px;
+}
+
+.itemContain {
+    display: grid;
+    height: 100dvh;
+    grid-template-rows: 25% 1fr auto;
+}
+
+.itemHead {
+    padding: 8px;
+    background-color: rgba(0, 4, 255, 0.993);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px;
+    margin: 0px;
+    display: flex;
+
+}
+
+.Headerlogo {
+    width: 70px;
+    position: absolute;
+    margin: 0;
+    top: 30px;
+    padding: 0;
+}
+
+.itemHead h1 {
+    display: flex;
+    margin: 0 5%;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 25px black;
+}
+
+.itemHead ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20%;
+    margin: 3% 15%;
+    font-family: cursive;
+    font-weight: bolder;
+    /* float: right; */
+}
+
+.itemHead a {
+    /* float: right; */
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 10px;
+    color: rgb(250, 250, 250);
+}
+
+.itemHead a:hover {
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-10px);
+}
+
+.itemMain {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.itemMain h1,#Ratings {
+    color: blue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 2px 10px black;
+}
+
+.itemMain h2 {
+    color: grey;
+    text-align: center;
+    font-size: 2rem;
+}
+
+span {
+    color: rgb(10, 90, 46);
+}
+
+.itemMain img {
+    margin: 0%;
+    width: 100%;
+    height: 100dvh;
+    filter: saturate(200%);
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px;
+}
+
+#divs {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% 33.3% 33.3% 33.3%;
+    width: 500px;
+    margin: 0 20%;
+}
+
+#firstdiv {
+
+    height: 100vh;
+    border: 8px solid blue;
+    background-color: white;
+    grid-column-start: auto;
+    background: url(bruno-rodrigues-279xIHymPYY-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+    margin: 0.5%;
+    filter: saturate(150%);
+
+}
+
+#firstdiv1 {
+
+    height: 100vh;
+    border: 8px solid blue;
+    background-color: white;
+    grid-column-start: auto;
+    background: url(jeremy-alford-O13B7suRG4A-unsplash.jpg);
+    background-size: cover;
+    background-position: 35%;
+    margin: 0.5%;
+    filter: saturate(150%);
+}
+
+#firstdiv2 {
+
+    height: 100vh;
+    border: 8px solid blue;
+    background-color: white;
+    grid-column-start: auto;
+    background-image: url(usman-yousaf-PVjfLss3b-c-unsplash.jpg);
+    background-size: cover;
+    background-position: 48%;
+    margin: 0.5%;
+    filter: saturate(150%);
+
+}
+
+#firstdiv3 {
+
+    height: 100vh;
+    border: 8px solid blue;
+    background-color: white;
+    grid-column-start: auto;
+    background-image: url(chayene-rafaela-nGwkIZFelko-unsplash.jpg);
+    background-size: cover;
+    image-orientation: 20rad;
+    background-position: 45%;
+    margin: 0.5%;
+    filter: saturate(150%);
+
+}
+
+#firstdiv4 {
+
+    height: 100vh;
+    border: 8px solid blue;
+    background-color: white;
+    grid-column-start: auto;
+    background-image: url(michael-starkie-R_SZmSp390Q-unsplash.jpg);
+    background-size: cover;
+    image-orientation: 20rad;
+    background-position: 58%;
+    margin: 0.5%;
+    filter: saturate(150%);
+
+}
+
+#firstdiv5 {
+
+    height: 100vh;
+    border: 8px solid blue;
+    background-color: white;
+    grid-column-start: auto;
+    background-image: url(sergey-vinogradov-lROA5bd518U-unsplash.jpg);
+    background-size: cover;
+    image-orientation: 20rad;
+    background-position: 58%;
+    margin: 0.5%;
+    filter: saturate(150%);
+
+}
+
+.How h1 {
+    margin: 10px 500px;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(92, 86, 86);
+    padding: 0.4%;
+    background-color: rgba(228, 228, 241, 0.26);
+    border-radius: 50px 50px;
+    box-shadow: 4px 4px 4px;
+
+}
+
+.How ol {
+    margin: 20px 400px;
+    padding: 40px;
+    width: 50%;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 255, 0.178);
+    color: rgb(3, 25, 228);
+    border-radius: 3px 10px;
+    box-shadow: 20px 10px 10px;
+}
+
+.FAQ img {
+    margin: 5%;
+    width: 700px;
+    height: 60dvh;
+    display: flex;
+    float: right;
+    filter: saturate(150%);
+    border-radius: 50%;
+}
+
+.FAQ ul {
+    width: 500px;
+    font-size: 2.5rem;
+    padding: 5px;
+    margin: 50px 100px;
+    background-color: rgba(255, 13, 106, 0.13);
+    color: purple;
+    border-radius: 50%;
+}
+
+.FAQ :link {
+    text-decoration: none;
+}
+
+.itemFooter {
+    padding: 8px;
+    background-color: rgba(0, 4, 255, 0.993);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+
+}
+
+.footer img {
+    width: 40px;
+    margin: 0px 5%;
+}
+
+/* About page styling */
+.dima {
+    width: 50%;
+    /* margin-top: 5%; */
+    height: 70dvh;
+    float: right;
+    box-shadow: 10px 12px 12px 12px;
+}
+
+.dimah1 {
+    margin: 0% 30%;
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+    text-shadow: 1px 1px 6px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    background-color: rgba(255, 235, 205, 0.582);
+    border-radius: 50px;
+    box-shadow: 4px 4px 5px black;
+
+}
+
+.dimap {
+    padding: 80px;
+    margin-right: 50%;
+    /* margin-top: 12.5%; */
+    background-color: rgba(0, 0, 255, 0.219);
+    font-size: 2rem;
+    font-display: flex;
+    gap: 10%;
+    text-wrap: wrap;
+    color: blue;
+    text-align: start;
+    border-radius: 2px 4px;
+    box-shadow: 5px 10px 10px;
+    height: 50dvh;
+
+}
+
+:hover.dimap {
+    transform: translateY(-10px);
+}
+.Use{
+    display:flex;
+gap: 5%;}
+.Users{
+    display: flex;
+    font-size: 4rem;
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px pink;
+    margin: 3% 10%;
+   
+}
+.Users1{
+    display: flex;
+    font-size: 4rem;
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px pink;
+    margin:2% 3%;
+}
+
+.UseEX{
+display: flex;
+gap: 10%;
+font-size: 2rem;
+margin: 3% 8%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+color: blue;
+}
+.UseEX img{
+    display: flex;
+    margin: 2px 2px;
+    width: 50px;
+}

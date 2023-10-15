@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign up.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="itemContain">
+        <header class="itemHead">
+            <img class="Headerlogo" src="./file.png" alt="folderlogo">
+            <h1 style="font-family: 'Handjet', cursive;">BookME</h1>
+
+            <ul>
+                <li> <a href="Index.html">HOME</a></li>
+                <li> <a href="About.html">ABOUT</a></li>
+                <li> <a href="services.html">SERVICES</a></li>
+                <!-- <li> <a href="">CLINIC</a></li> -->
+                <li> <a href="signIn.html">LOGIN</a></li>
+                <li> <a href="Register.html">REGISTER</a></li>
+            </ul>
+        </header>
+
+    <div class="signupform">
+        <form  onsubmit="{handlesubmit}"   method="POST" action="/signup" class="form">
+            <h1 class="title">Sign Up</h1>
+
+            <div class="inputContain">
+                <input type="text" class="input" name="Email" value="" placeholder="a">
+                <label for="" class="label">Email</label>
+            </div>
+
+            <div class="inputContain">
+                <input type="text" class="input" name="Username" value="" placeholder="a">
+                <label for="" class="label">Username</label>
+            </div>
+
+            <div class="inputContain">
+                <input type="text" class="input" name="Gender" value="" placeholder="a">
+                <label for="" class="label">Gender</label>
+            </div>
+            <div class="inputContain">
+                <input type="text" class="input" name="Card No" value="" placeholder="a">
+                <label for="" class="label">Card No</label>
+            </div>
+
+            <div class="inputContain">
+                <input type="text" class="input" name="Password" value="" placeholder="a">
+                <label for="" class="label">Password</label>
+            </div>
+
+            <div class="inputContain">
+                <input type="text" class="input" name="Confirm Password" value="" placeholder="a">
+                <label for="" class="label">Confirm Password</label>
+            </div>
+            <input type="submit" class="submitBtn" value="Sign up">
+        </form>
+    </div>
+    <footer class="itemFooter">
+        <div class="footer">
+            <p> <strong>&COPY;</strong>2023</p>
+            <img src="/codeplateau.jpeg" alt="img">
+            <img src="/ppmf.jpeg" alt="img">
+            <img src="/sdgfestival.jpeg" alt="img">
+
+        </div>
+
+    </footer>
+    </div>
+    <script>
+function app(){
+        const [username,setUsername] = useState()
+        const [email, setEmail] = useState ()
+        const [Gender, setGender] = useState()
+        const [clinic, setClinic] = useState ()
+        const [password, setPassword] = usestate ()
+        }
+        const  handlesubmit= (e) =>{
+            e.preventDefault();
+            axios.post ('',{username, email, gender, clinic, password})
+            .then(result = console.log(result))
+            .catch(err => console.log(err)) 
+        
+        }
+    </script>
+    
+        
+        
+</body>
+
+</html>

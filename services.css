@@ -1,0 +1,25 @@
+.item img{
+  
+    width: 700px;
+    float: right;
+    filter: saturate(120%);
+    height: 100dvh;
+}
+.item h1{
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 60%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: rgba(202, 202, 228, 0.164);
+}
+.item ol{
+    margin: 5% 10%;
+    font-size: 2.5rem;
+    font-family:'Montserrat', sans-serif;
+    color: blue;
+    gap: 10%;
+}
